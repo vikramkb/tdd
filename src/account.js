@@ -11,4 +11,11 @@ export default class Account {
   getBalance(){
     return this.balance;
   }
+
+  withdraw(money) {
+    if(money > this.balance){
+      throw 'In sufficient balance';
+    }
+    this.balance -= money;
+  }
 }
