@@ -59,4 +59,4 @@ class AirconditionCost {
 }
 
 const airconditionCost = new AirconditionCost();
-console.log(airconditionCost.cost(4, 15, 1));
+console.log(airconditionCost.cost(48, 15, 1));
